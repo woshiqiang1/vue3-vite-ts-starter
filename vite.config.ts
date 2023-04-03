@@ -6,10 +6,6 @@ import Components from 'unplugin-vue-components/vite'
 import Mocker from 'unplugin-mock/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 
-function resolve(dir: string) {
-	return path.join(__dirname, dir)
-}
-
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => {
 	const ENV = loadEnv(mode, process.cwd())
@@ -43,7 +39,7 @@ export default defineConfig(({ mode }) => {
 		],
 		resolve: {
 			alias: {
-				'@': resolve('./src')
+				'@': path.join(__dirname, './src')
 			}
 		},
 		server: {

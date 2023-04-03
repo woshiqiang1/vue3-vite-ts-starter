@@ -1,5 +1,5 @@
-import http from '@/api'
-import type { Response } from '@/api'
+import http from '@/api/http'
+import type { Response } from '@/api/http'
 import { API_URL } from './constants'
 
 export interface UserInfo {
