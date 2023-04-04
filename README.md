@@ -14,6 +14,7 @@
 - Eslint, of course
 - Husky with lint-staged, commit-lint
 - Element-plus UI kit component
-- `unplugin-vue-components` - components auto import, include Element-plus
-- `unplugin-auto-import` - Directly use Vue Composition API and others without importing
-- `unplugin-mock` - API mocker support
+- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import, include Element-plus
+- [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
+- [`unplugin-mock`](https://github.com/tangdaoyuan/unplugin-mock) - API mocker support
