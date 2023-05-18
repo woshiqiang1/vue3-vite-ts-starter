@@ -5,7 +5,7 @@
 ## Feature
 
 - Vue 3
-- use `<script steup>` syntax
+- use `<script setup>` syntax
 - TypeScript
 - Vue Router 4
 - Pinia 2
